@@ -1,0 +1,17 @@
+{
+	"name": "component-badge",
+	"description": "Easily check function arguments",
+	"version": "1.0.0",
+	"author": "Jan Buschtöns <buschtoens@gmail.com>",
+	"contributors": [ 
+		{ "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" },
+		{ "name": "Tim Oxley", "url": "https://github.com/timoxley" }
+		{ "name": "Forbes Lindesay", "url": "https://github.com/ForbesLindesay" }
+	],
+	"license": "MIT",
+	"keywords": ["component"],
+	"repository": "git://github.com/silvinci/component-badge",
+	"main": "index",
+	"engines": { "node": "*" },
+	"scripts": { "prepublish": "npm prune", "test": "echo Sorry, there's no test yet." }
+}
