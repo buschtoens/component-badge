@@ -25,7 +25,7 @@ describe('rendering a badge', function () {
 	});
 	describe('with scale of 2 and #FF0072 background and #404040 subtitle', function () {
 		it('includes a scale of 2 has a #FF0072 background and a #404040 subtitle', function () {
-			badge(500, { scale: 2, background: "#FF0072", subtitle: "#4040404" }).should.equal(fixture("options.svg"));
+			badge(500, { scale: 2, background: "#FF0072", subtitle: "#404040" }).should.equal(fixture("options.svg"));
 		});
 	});
 });
