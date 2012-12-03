@@ -29,11 +29,10 @@
   },
   "scripts": {
     "prepublish": "npm prune",
-    "test": "echo Sorry, there's no test yet."
+    "test": "mocha -R spec"
   },
   "devDependencies": {
     "mocha": "~1.7.3",
-    "expect.js": "~0.2.0",
     "should": "~1.2.1"
   }
 }
