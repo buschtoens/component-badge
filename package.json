@@ -5,7 +5,7 @@
 	"author": "Jan Buschtöns <buschtoens@gmail.com>",
 	"contributors": [ 
 		{ "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" },
-		{ "name": "Tim Oxley", "url": "https://github.com/timoxley" }
+		{ "name": "Tim Oxley", "url": "https://github.com/timoxley" },
 		{ "name": "Forbes Lindesay", "url": "https://github.com/ForbesLindesay" }
 	],
 	"license": "MIT",
