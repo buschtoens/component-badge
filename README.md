@@ -1,4 +1,4 @@
-# component badge
+# component badge [![Build Status](https://secure.travis-ci.org/silvinci/component-badge.png?branch=master)](https://travis-ci.org/silvinci/component-badge)
 
 Based on @timoxley's idea and made for @ForbesLindesay's website
 
