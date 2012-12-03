@@ -20,7 +20,7 @@ describe('rendering a badge', function () {
 	});
 	describe('with scale of 2', function () {
 		it('includes a scale of 2', function () {
-			badge(500, 2).should.equal(fixture("scale-2.svg"));
+			badge(500, { scale: 2 }).should.equal(fixture("scale-2.svg"));
 		});
 	});
 });
