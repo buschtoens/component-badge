@@ -6,6 +6,6 @@
 		<path fill="${leftAnnulusFill}" d="M81.21320343559643,81.21320343559643 L88.2842712474619,88.2842712474619 A40,40 0 1 1 88.2842712474619,31.71572875253809 L81.21320343559643,38.78679656440357 A30,30 0 1 0 81.21320343559643,81.21320343559643 z"></path>
 		<path fill="${rightAnnulusFill}" d="M82.98133329356934,40.716371709403816 L90.64177772475911,34.28849561253841 A40,40 0 0 1 90.64177772475912,85.71150438746156 L82.98133329356935,79.28362829059617 A30,30 0 0 0 82.98133329356934,40.716371709403816 z"></path>
 		<text x="460" y="77.5" font-family="Arial" font-size="70" text-anchor="end" fill="${titleFill}">component</text>
-		<text x="460" y="115" font-family="Arial" font-size="30" text-anchor="end" fill="${subtitleFill}">${subtitle}</text>
+		<text x="${subtitleX}" y="${subtitleY}" font-family="Arial" font-size="30" text-anchor="${subtitleAnchor}" fill="${subtitleFill}">${subtitle}</text>
 	</g>
 </svg>
