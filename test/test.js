@@ -24,17 +24,22 @@ describe('rendering a badge', function () {
 		});
 	});
 	describe('with scale of 2 and custom colors', function () {
-		it('includes a scale of 2 an has custom colors', function () {
+		it('includes a scale of 2 and has custom colors', function () {
 			badge(500, 
 				{ scale: 2
-				, background: "#FF0072"
-				, subtitle: "#404040"
-				, title: "#FF0000"
-				, circle: "#00FF00"
-				, leftAnnulus: "#0000FF"
-				, rightAnnulus: "#FFFF00"
+				, backgroundFill: "#FF0072"
+				, subtitleFill: "#404040"
+				, titleFill: "#FF0000"
+				, circleFill: "#00FF00"
+				, leftAnnulusFill: "#0000FF"
+				, rightAnnulusFill: "#FFFF00"
 				}
 			).should.equal(fixture("options.svg"));
+		});
+	});
+	describe('with custom positioning', function () {
+		it('alters the position', function () {
+			badge(500, { subtitlePos: "right" }).should.equal(fixture("positioning.svg"));
 		});
 	});
 });
