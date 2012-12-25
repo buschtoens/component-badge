@@ -10,8 +10,9 @@ Based on @timoxley's idea and made for @ForbesLindesay's website
 `count` is the number shown under the logo ("1337 available"). If left out the subline comletely vanishes.  
 `options` is an object that takes these params including their default values.
 - `scale: 1`
-- `backgroundFill: "none"`
+- `subtitlePos: "bottom"`
 - `subtitleFill: "#939393"`
+- `backgroundFill: "none"`
 - `titleFill: "#000000"`
 - `circleFill: "#353535"`
 - `leftAnnulusFill: "#353535"`
