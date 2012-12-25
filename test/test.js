@@ -37,4 +37,9 @@ describe('rendering a badge', function () {
 			).should.equal(fixture("options.svg"));
 		});
 	});
+	describe('with custom positioning', function () {
+		it('alters the position', function () {
+			badge(500, { subtitlePos: "right" }).should.equal(fixture("positioning.svg"));
+		});
+	});
 });
